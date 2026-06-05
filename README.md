@@ -88,6 +88,15 @@ Las librerias se declaran usando la directiva del preprocesador `#include` para 
 | `math.h` | Funciones matematicas complejas (seno, coseno, potencia con pow, raiz cuadrada) |
 | `iostream` | Entrada y salida por flujos en C++ (std::cin, std::cout) |
 
+### Usos y Ejemplos Practicos de Librerias
+
+* **`math.h`**: Ideal para calculos matematicos y formulas.
+  * **Uso**: `pow(base, exp)` (potencia), `sqrt(num)` (raiz cuadrada).
+  * **Ejemplo Práctico**: Calcular la hipotenusa de un triangulo usando el Teorema de Pitagoras `c = sqrt(pow(a, 2) + pow(b, 2))`.
+* **`string.h`**: Fundamental en C para manipular cadenas de texto, ya que C las maneja como arreglos de caracteres `char[]`.
+  * **Uso**: `strlen(str)` (longitud), `strcmp(str1, str2)` (comparar), `strcpy(dest, src)` (copiar).
+  * **Ejemplo Práctico**: Validar un login comparando contraseñas con `if (strcmp(pass_ingresada, pass_guardada) == 0)`.
+
 ---
 
 ## Traduccion Mental Rapida (PSeInt -> C)
@@ -154,6 +163,8 @@ Abre cada carpeta para aprender con ejemplos reales comentados paso a paso:
     * Estructura repetitiva `while` interactiva.
 11. **[08_bucles/bucle_for.c](file:///c:/Users/jrdri/Documents/projects/C/08_bucles/bucle_for.c)** (Nuevo):
     * Estructura repetitiva `for` e interrupcion inmediata de ciclos con `break`.
+12. **[09_librerias/ejemplo_math.c](file:///c:/Users/jrdri/Documents/projects/C/09_librerias/ejemplo_math.c)** y **[09_librerias/ejemplo_string.c](file:///c:/Users/jrdri/Documents/projects/C/09_librerias/ejemplo_string.c)** (Nuevo):
+    * Uso practico de las funciones matematicas (`pow`, `sqrt`, `ceil`, `floor`) y manipulacion de cadenas de texto (`strlen`, `strcpy`, `strcat`, `strcmp`).
 
 ---
 
